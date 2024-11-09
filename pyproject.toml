@@ -1,0 +1,28 @@
+[tool.poetry]
+name = "hexlet-code"
+version = "0.1.0"
+description = "Find defenitions"
+authors = ["Anisimov Sergey (Heavybrain) <mrsaanisimov@mail.ru>"]
+license = "MIT"
+readme = "README.md"
+packages = [
+	{ include = "diff" },
+]
+classifiers = [
+"Topic :: Software Development :: Build Tools",
+"Topic :: Software Development :: Libraries :: Python Modules",
+"Programming Language :: Python"
+]
+repository = "https://github.com/Heavybrain/python-project-50"
+
+[tool.poetry.scripts]
+gendiff = "diff.scripts.gendiff:main"
+
+
+[tool.poetry.dependencies]
+python = "3.10.12"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
