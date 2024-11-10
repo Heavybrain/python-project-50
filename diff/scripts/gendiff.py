@@ -17,9 +17,9 @@ def main():
     parser.add_argument('first_file')
     parser.add_argument('second_file')
 
-    if len(sys.argv) > 1:
-        args = parser.parse_args()
+    if len(sys.argv) > 1 and sys.argv[1] in ('-h', '--help'):
         parser.print_help()
+        return 
 
 if __name__ == '__main__':
     main()
