@@ -1,7 +1,7 @@
 ### Hexlet tests and linter status:
 [![Actions Status](https://github.com/Heavybrain/python-project-50/actions/workflows/hexlet-check.yml/badge.svg)](https://github.com/Heavybrain/python-project-50/actions)
 
-<script src="https://asciinema.org/a/jDwn5V5VCYOHZibPmWQg147UF.js" id="asciicast-jDwn5V5VCYOHZibPmWQg147UF" async="true"></script>
+<a href="https://asciinema.org/a/jDwn5V5VCYOHZibPmWQg147UF" target="_blank"><img src="https://asciinema.org/a/jDwn5V5VCYOHZibPmWQg147UF.svg" /></a>
 
 [![Python CI](https://github.com/Heavybrain/python-project-50/actions/workflows/main.yml/badge.svg)](https://github.com/Heavybrain/python-project-50/actions/workflows/main.yml)
 
